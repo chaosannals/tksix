@@ -1,0 +1,21 @@
+{
+    "name": "chaosannals/tksix",
+    "description": "thinkphp 6.0 and php 8 library",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "chaosannals",
+            "email": "chaosannals@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "tksix\\": "main"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "topthink/framework": "^6.0"
+    }
+}
